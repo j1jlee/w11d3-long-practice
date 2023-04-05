@@ -4,8 +4,8 @@
   "description": "Practice Sequelize Basics",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "dotenv node app.js",
+    "dev": "dotenv nodemon app.js"
   },
   "keywords": [
     "Express",
